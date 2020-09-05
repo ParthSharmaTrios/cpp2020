@@ -23,12 +23,19 @@ int main(){
 
        for(int k=1; k<= 2*i-1; k++){
 
+           
          
 
-           if(k==1  || k==2*i-1){
+           if(k==1 || i==rows || k==i ||k==2*i-1 ){
                cout <<"*";
            }else{
+               
+              
                cout << " ";
+
+              
+
+               
            }
 
        }
@@ -47,7 +54,7 @@ int main(){
 
          
 
-           if(k==1  || k==2*i-1){
+           if(k==1  || k==i || k==2*i-1){
                cout <<"*";
            }else{
                cout << " ";
