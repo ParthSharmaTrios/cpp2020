@@ -4,10 +4,6 @@ using namespace std;
 int main(){
 
   
-
-
-
-
     int rows;
 
     cout << "Enter number of rows you  want - ";
@@ -24,16 +20,11 @@ int main(){
        for(int k=1; k<= 2*i-1; k++){
 
            
-         
-
-           if(k==1 || i==rows || k==i ||k==2*i-1 ){
+            if(k==1 || i==rows || k==i ||k==2*i-1 ){
                cout <<"*";
            }else{
                
-              
                cout << " ";
-
-              
 
                
            }
@@ -52,9 +43,7 @@ int main(){
 
        for(int k=1; k<= 2*i-1; k++){
 
-         
-
-           if(k==1  || k==i || k==2*i-1){
+         if(k==1  || k==i || k==2*i-1){
                cout <<"*";
            }else{
                cout << " ";
