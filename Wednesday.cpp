@@ -25,7 +25,7 @@ string random_string(){
 
 void smallestInArr(){
 
-    int numbers[6] = {4,50,1,4,10,5};
+    int numbers[6] = {4,50,1,4,10,5}; 
 
     int arrSize = sizeof(numbers)/sizeof(numbers[0]);
     int smallest = numbers[0];
